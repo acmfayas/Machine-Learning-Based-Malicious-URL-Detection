@@ -1,0 +1,74 @@
+/* popup.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #eff4f3;
+    border-radius: 5px;
+    padding: 30px; /* Increased padding for more space */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px; /* Increased width */
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  input[type="text"] {
+    width: 480px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #0069b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0b91ff;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    background-color: #ffffff; /* Default background color (red) */
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  /* styles.css */
+#predictionResult {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+/* .result.safe {
+    background-color: #66cc66; 
+    color: white; 
+}
+
+.result.unsafe {
+    background-color: #ff2525; 
+    color: white; 
+} */
